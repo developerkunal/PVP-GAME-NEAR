@@ -582,6 +582,11 @@ ts-mixer@^5.1.0:
   resolved "https://registry.yarnpkg.com/ts-mixer/-/ts-mixer-5.4.0.tgz#f98583e6acd72bf4c7a04481352ebfd203171297"
   integrity sha512-Z5u/hpTkP4VWTIQT5vzxyeFAe8siPkatOC0Q49Uf56ccMGSHosI/IEo+t8BFvJX9yiF111YEOKfKY3m72V7F/w==
 
+unique-names-generator@^4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/unique-names-generator/-/unique-names-generator-4.7.1.tgz#966407b12ba97f618928f77322cfac8c80df5597"
+  integrity sha512-lMx9dX+KRmG8sq6gulYYpKWZc9RlGsgBR6aoO8Qsm3qvkSJ+3rAymr+TnV8EDMrIrwuFJ4kruzMWM/OpYzPoow==
+
 universal-url@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/universal-url/-/universal-url-2.0.0.tgz#35e7fc2c3374804905cee67ea289ed3a47669809"

@@ -195,7 +195,7 @@ export function getGameState(gameId: i32): GameState {
 export function getHeroDetails(heroId: i32): string {
   const hero = heros.getSome(heroId);
   if(hero != null){
-          return 'Hero Name ' + hero.heroname +' HEro Owner ' + hero.heroowner;
+          return 'Hero Name ' + hero.heroname +' HEro Owner ' + hero.heroowner + 'Hero Health : - ' + hero.herohealth.toString() + 'hero damage : - ' + hero.herodamage.toString() + 'hero special :- ' + hero.herospecial.toString();
   }
   return "None";
 }

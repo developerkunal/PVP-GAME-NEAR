@@ -57,11 +57,12 @@ export enum GameState {
           this.id = randomid;
           const rng2 = new RNG<u32>(250, 300);
           const rondomvalue=rng2.next();
+          const randomnumberstring=rondomvalue.toString();
           this.heroowner = Context.sender;
-          this.heroname='HERO';
-          this.herohealth=rondomvalue;
-          this.herodamage=rondomvalue;
-          this.herospecial=rondomvalue;
+          this.heroname='HERO' +randomnumberstring;
+          this.herohealth=rng2.next();;
+          this.herodamage=rng2.next();;
+          this.herospecial=rng2.next();;
       }
   
   }
